@@ -8,12 +8,12 @@ class SpicyFoodTest < Minitest::Test
   end
 
   def test_one_meal
-    skip
+    # skip
     assert_equal [11.5,11.5], spicy_food(['N'],[23])
   end
 
   def test_five_meals
-    skip
+    # skip
     assert_equal [81,10], spicy_food(['S','S','S','S','N'],[15,14,19,23,20])
   end
 

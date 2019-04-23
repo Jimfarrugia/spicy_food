@@ -1,4 +1,4 @@
-def spicy_food(order)
+def spicy_food(heat, cost)
   my_bill = 0
   friends_bill = 0
 
@@ -15,4 +15,5 @@ def spicy_food(order)
   end
 
   bill = [my_bill, friends_bill]
+  return bill
 end
